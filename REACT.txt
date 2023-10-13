@@ -11,6 +11,9 @@
         3. Installing material UI: npm install @mui/material @emotion/react @emotion/styled
         4. Installing Axios : npm i axios
         5. Installing react-router-dom: npm i react-router-dom
+        6. Installing React Bootstrap : npm install react-bootstrap bootstrap
+            - import bootstrap theme from https://bootswatch.com/ and include bootstrap.min.css file in index.js file
+        7. Installing react tostify : npm i react-toastify
 
             Concepts & Features
         ----------------------------
@@ -86,6 +89,7 @@
                         - No dependency passed: Runs on every render
                         - An empty array: Runs only on the first render
                         - Props or state values: Runs on the first render, And any time any dependency value changes
+                    - useNavigate Hook : used for redirection, return method for changing the location
                 - Custom Hook
         19. Difference between functional and class based Component
                 functional Component                            Class Based component
@@ -112,4 +116,9 @@
             - new instance of axios with a custom config.
         23. Routing / set up path for the component - In React
             - Using React-Router-Dom Library
+                - BrowserRouter : entire app should be render inside
+                - Routes : place all component needed to be set path should place inside 
+                - Route : set up path for component use Route
+            - Link : used to redirect from one page to another without reloading
+            - useNavigate Hook : redirection
 
